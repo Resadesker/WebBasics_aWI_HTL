@@ -3,5 +3,36 @@ header {
     color: #ffffff;
     padding: 10px;
     margin-bottom: 10px;
-    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header div {
+    /* float: right; */
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+header > div:not(:last-child) {
+    margin-right: 20px; 
+}
+
+.content {
+    top: 20px;
+    background-color: aqua;
+    border: 1px solid black;
+    padding-left: 20px;
+    width: 400px;
+    height: 300px;
+}
+
+.edge {
+    background-color: #e0ffa8;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
 }
