@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 header {
     background-color: #e0ffa8;
     color: #ffffff;
@@ -9,8 +13,8 @@ header {
 
 header div {
     /* float: right; */
-    width: 100px;
-    height: 100px;
+    width: 30px;
+    height: 30px;
     background-color: red;
 }
 
@@ -19,10 +23,13 @@ header > div:not(:last-child) {
 }
 
 .content {
+    position: relative;
     top: 20px;
+    left: 20px;
     background-color: aqua;
     border: 1px solid black;
     padding-left: 20px;
+    padding-top: 20px;
     width: 400px;
     height: 300px;
 }
@@ -35,4 +42,9 @@ header > div:not(:last-child) {
     bottom: 0;
     right: 0;
     z-index: 10;
+    background-color: purple;
+}
+
+.content .edge {
+    background-color: brown;
 }
