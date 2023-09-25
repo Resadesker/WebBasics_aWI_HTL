@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+footer {
+    background-color: #e0ffa8;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 70px;
+}
+
+footer div {
+    /* float: right; */
+    width: 70px;
+    height: 70px;
+    background-color: red;
+}
+
+.content {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: aqua;
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 400px;
+    height: 300px;
+}
+
+.edge {
+    background-color: #e0ffa8;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    background-color: purple;
+    position: fixed;
+}
+
+.content .edge {
+    bottom: 0;
+    background-color: brown;
+    position: absolute;
+}
