@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+footer div {
+    /* float: right; */
+    width: 70px;
+    height: 70px;
+    background-color: red;
+}
+
+.content {
+    /* margin: 40px; */
+    margin: 5% 5% 5% 5%;
+    position: relative;
+    background-color: lightgray;
+    border: 1px solid black;
+    width: 90%;
+    height: 600px;
+    display: flex;
+}
+
+.content div {
+    /* background-color: greenyellow; */
+    width: 50%;
+    height: 100%;
+    display: grid;
+    border: 1px solid black;
+}
+
+.content .left {
+    grid-template-columns: auto auto auto;
+}
+
+.content .right {
+    grid-template-columns: auto auto;
+    padding-left: 50px;
+}
+
+.content .left .block {
+    margin: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+}
+
+.content .right .block {
+    margin: 10px;
+    width: 250px;
+    height: 270px;
+    background-color: greenyellow;
+}
