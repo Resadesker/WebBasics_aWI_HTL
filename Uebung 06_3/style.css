@@ -28,21 +28,40 @@ footer div {
     left: 20px; */
     background-color: aqua;
     border: 1px solid black;
-    padding-left: 20px;
-    padding-top: 20px;
+    /* padding-left: 20px;
+    padding-top: 20px; */
     width: 300px;
-    height: 400px;
+    height: 200px;
 }
 
 .edge {
-    background-color: #e0ffa8;
-    width: 100px;
-    height: 100px;
-    right: 0;
+    width: 250px;
+    height: 250px;
+    left: 0;
     z-index: 10;
     bottom: 0;
-    background-color: green;
+    background-color: gray;
     position: absolute;
+}
+
+.edge .center {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.content .edge {
+    width: 50px;
+    height: 50px;
+    right: 0;
+    left: auto;
+    z-index: 10;
+    top: 0;
+    background-color: black;
 }
 
 .topedge {
@@ -55,4 +74,28 @@ footer div {
     margin-right: 10px;
     background-color: rgb(63, 63, 63);
     position: absolute;
+}
+
+.content .top .left {
+    background-color: greenyellow;
+    width: 50%;
+    height: 100%;
+}
+
+.content .top .right {
+    background-color: blue;
+    width: 50%;
+    height: 100%;
+}
+
+.top {
+    margin: 0;
+    /* height: 100px; */
+    height: 70%;
+    display: flex;
+}
+
+.bottom {
+    height: 30%;
+    background-color: orange;
 }

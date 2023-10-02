@@ -35,7 +35,6 @@ header > div:not(:last-child) {
 }
 
 .edge {
-    background-color: #e0ffa8;
     width: 100px;
     height: 100px;
     position: absolute;
