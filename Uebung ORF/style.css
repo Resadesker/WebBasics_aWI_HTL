@@ -1,0 +1,45 @@
+* {
+    font-family: "ORF ON",Arial,Helvetica,Lucida Sans Unicode,Lucida Grande,sans-serif; 
+    font-feature-settings: "liga", "kern";
+}
+
+body {
+    background-color: #d6dcde;
+}
+
+@media (min-width: 63.75em){
+    .wrapper {
+        width: 875px;
+        margin: 0 0 25px 25px;
+    }
+}
+
+.wrapper {
+    position: relative;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9e0b0f;
+    display: flex;
+}
+
+li {
+    float: left;
+    justify-content: space-between;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
