@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    border: 2px solid #333;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+#display {
+    width: 100%;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+    color: white;
+}
