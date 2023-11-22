@@ -1,0 +1,48 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #263238;
+  margin: 10px 0;
+  padding: 15px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+li:nth-child(odd) {
+  background-color: #37474f;
+}
+
+li:hover {
+  background-color: #455a64;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
