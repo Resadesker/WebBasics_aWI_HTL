@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+}
+
+.top-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: aqua;
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+}
+
+.top-right .edge {
+    width: 250px;
+    height: 250px;
+    left: 0;
+    z-index: 10;
+    bottom: 0;
+    background-color: gray;
+    position: absolute;
+}
+
+.edge {
+    width: 250px;
+    height: 250px;
+    left: 0;
+    z-index: 10;
+    bottom: 0;
+    background-color: gray;
+    position: absolute;
+}
+
+.edge .center {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.top-right .edge {
+    width: 50px;
+    height: 50px;
+    right: 0;
+    left: auto;
+    z-index: 10;
+    top: 0;
+    background-color: black;
+}
+
+.top-right .top {
+    height: 70%;
+    display: flex;
+}
+
+.top-right .top .left {
+    background-color: greenyellow;
+    width: 50%;
+    height: 100%;
+}
+
+.top-right .top .right {
+    background-color: blue;
+    width: 50%;
+    height: 100%;
+}
+
+.top-right .bottom {
+    height: 30%;
+    background-color: orange;
+}
+
+.top-left {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.bottom-left {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    background-color: purple;
+}
+
+.bottom-left .inner {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
